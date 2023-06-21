@@ -34,6 +34,15 @@ const addition = (a, b) => {
 
 // CODE ICI
 
+
+const monTableau = [1, 2, 3]
+
+const laPremiereElement = () =>{
+ return  monTableau[0]
+}
+console.log(monTableau[0]) // 1
+
+
 //----------------------------------------------------------------------------------------------//
 // EXERCICE 3
 
@@ -45,6 +54,16 @@ const addition = (a, b) => {
 // console.log(monTableau) // [1, 2]
 
 // CODE ICI
+
+const tableau = [1, 2, 3];
+
+const maFunctionTab = () => {
+
+}
+
+console.log(tableau.pop());
+
+
 
 //----------------------------------------------------------------------------------------------//
 // EXERCICE 4
@@ -58,6 +77,22 @@ const addition = (a, b) => {
 // }
 
 // CODE ICI
+
+
+function calculerSomme(tableau) {
+    let somme = 0;
+    for (let i = 0; i < tableau.length; i++) {
+      somme += tableau[i];
+    }
+    return somme;
+  }
+  
+  
+  const onTableau = [1, 2, 3];
+  const resultat = calculerSomme(monTableau);
+  console.log(resultat); // Affiche 6
+  
+
 
 //----------------------------------------------------------------------------------------------//
 
@@ -74,6 +109,18 @@ const addition = (a, b) => {
 
 // CODE ICI
 
+function inverserString(chaine) {
+    const tableau = chaine.split(""); // Transforme la chaîne en tableau de caractères
+    const tableauInverse = tableau.reverse(); // Inverse le tableau
+    const chaineInversee = tableauInverse.join(""); // Reconvertit le tableau en chaîne de caractères
+    return chaineInversee;
+  }
+  
+  
+  const maString = "Hello";
+  const resut = inverserString(maString);
+  console.log(resut); // Affiche "olleH"
+
 //----------------------------------------------------------------------------------------------//
 
 // EXERCICE 6
@@ -84,6 +131,17 @@ const addition = (a, b) => {
 // console.log(Math.max(...monTableau)) // 3
 
 // CODE ICI
+
+
+function trouverPlusGrand(tableau) {
+    return Math.max(...tableau);
+  }
+  
+  
+  const lonTableau = [1, 2, 3];
+  const res = trouverPlusGrand(monTableau);
+  console.log(res);
+  
 
 //----------------------------------------------------------------------------------------------//
 
