@@ -12,7 +12,18 @@
 
 // CODE ICI
 
-//----------------------------------------------------------------------------------------------//
+//
+
+
+const addition = (a, b) => {
+    return a * b;
+  }
+  
+
+  console.log(addition(3,4)); // Affiche 7
+  
+
+----------------------------------------------------------------------------------------------//
 // EXERCICE 2
 
 // Crée une fonction qui prend en paramètre un tableau et qui retourne le premier élément du tableau.
